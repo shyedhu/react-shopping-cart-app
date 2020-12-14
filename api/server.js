@@ -48,7 +48,7 @@ app.post('/api/auth', (req,res) => {
   }
 });
 
-const PORT = 5001;
+const PORT = 5003;
 
 app.listen(PORT);
 console.log('api runnging on port ' + PORT + ': ');
